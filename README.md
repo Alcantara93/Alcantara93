@@ -1,6 +1,7 @@
 # 💫 About Me:
-# Hello, I am Ailton.<br>I’ve spent the last four years intensely engrained in the world of data, finding joy in the challenge of transforming data into strategic insights that drive business decisions and growth.
-# <br>My expertise lies in dissecting complex datasets and translating them into clear, actionable intelligence for stakeholders at all levels.
+# Hello, I am Ailton.
+# I’ve spent the last four years intensely engrained in the world of data, finding joy in the challenge of transforming data into strategic insights that drive business decisions and growth.
+# My expertise lies in dissecting complex datasets and translating them into clear, actionable intelligence for stakeholders at all levels.
 
 
 ## 🌐 Socials:
