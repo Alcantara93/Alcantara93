@@ -4,7 +4,7 @@ This project provides interactive data visualizations using Plotly to analyze cu
 
 ## Interactive Visualizations (with static previews)
 
-Each section below shows a static preview image (click to open the full interactive HTML in `outputs/`). The images are saved in the `images/` folder and the interactive HTML versions are in `outputs/`.
+Each section below shows a static preview image (click to open the full interactive HTML). The images are saved in the `docs/images/` folder and the interactive HTML versions are in `docs/` so they can be served via GitHub Pages.
 
 ---
 
@@ -12,11 +12,11 @@ Each section below shows a static preview image (click to open the full interact
 
 Box plots (distribution) — click the image to open the interactive plot:
 
-[![Price and Age Box](images/price_age_box.png)](outputs/price_age_box.html)
+[![Price and Age Box](docs/images/price_age_box.png)](docs/price_age_box.html)
 
 Scatter plot (price vs age):
 
-[![Price vs Age Scatter](images/price_age_scatter.png)](outputs/price_age_scatter.html)
+[![Price vs Age Scatter](docs/images/price_age_scatter.png)](docs/price_age_scatter.html)
 
 Interactive features: hover for values, zoom/pan, and export with the camera icon.
 
@@ -26,15 +26,15 @@ Interactive features: hover for values, zoom/pan, and export with the camera ico
 
 Overall CLV distribution:
 
-[![CLV Distribution](images/clv_distribution.png)](outputs/clv_distribution.html)
+[![CLV Distribution](docs/images/clv_distribution.png)](docs/clv_distribution.html)
 
 CLV by gender:
 
-[![CLV by Gender](images/clv_by_gender.png)](outputs/clv_by_gender.html)
+[![CLV by Gender](docs/images/clv_by_gender.png)](docs/clv_by_gender.html)
 
 CLV vs age:
 
-[![CLV vs Age](images/clv_vs_age.png)](outputs/clv_vs_age.html)
+[![CLV vs Age](docs/images/clv_vs_age.png)](docs/clv_vs_age.html)
 
 ---
 
@@ -42,7 +42,7 @@ CLV vs age:
 
 Review score vs purchase frequency:
 
-[![Review vs Purchases](images/review_vs_purchases.png)](outputs/review_vs_purchases.html)
+[![Review vs Purchases](docs/images/review_vs_purchases.png)](docs/review_vs_purchases.html)
 
 ---
 
@@ -50,7 +50,7 @@ Review score vs purchase frequency:
 
 Total spending by age group:
 
-[![Age Spending](images/age_spending.png)](outputs/age_spending.html)
+[![Age Spending](docs/images/age_spending.png)](docs/age_spending.html)
 
 ---
 
@@ -58,7 +58,7 @@ Total spending by age group:
 
 Payment method usage by gender:
 
-[![Payment Methods](images/payment_methods.png)](outputs/payment_methods.html)
+[![Payment Methods](docs/images/payment_methods.png)](docs/payment_methods.html)
 
 ---
 
@@ -80,7 +80,7 @@ python -m pip install -r requirements.txt
 python interactive_analysis.py
 ```
 
-4. Open any `.html` file from the `outputs/` directory in your web browser to interact with the visualizations.
+4. Open any `.html` file from the `docs/` directory in your web browser (or visit the GitHub Pages site) to interact with the visualizations.
 
 ## How to Use the Interactive Plots
 
@@ -88,7 +88,7 @@ Each visualization is an interactive HTML file that you can open in your web bro
 
 1. Clone and set up the repository
 2. Run the analysis script
-3. Navigate to the `outputs/` directory
+3. Navigate to the `docs/` directory
 4. Open any `.html` file in your web browser
 5. Interact with the plots:
    - 🔍 **Zoom**: Click and drag to zoom into specific areas
