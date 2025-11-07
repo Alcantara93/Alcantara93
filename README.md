@@ -2,60 +2,65 @@
 
 This project provides interactive data visualizations using Plotly to analyze customer behavior, sales patterns, and demographics.
 
-## Interactive Visualizations
+## Interactive Visualizations (with static previews)
+
+Each section below shows a static preview image (click to open the full interactive HTML in `outputs/`). The images are saved in the `images/` folder and the interactive HTML versions are in `outputs/`.
+
+---
 
 ### 1. Price and Age Distribution
-📊 **Box Plots and Scatter Analysis**
-- View distribution patterns in [`outputs/price_age_box.html`](outputs/price_age_box.html)
-- Explore price-age relationships in [`outputs/price_age_scatter.html`](outputs/price_age_scatter.html)
 
-Interactive features:
-- Hover for exact values
-- Box plot quartile information
-- Zoom to investigate outliers
-- Double-click to reset view
+Box plots (distribution) — click the image to open the interactive plot:
+
+[![Price and Age Box](images/price_age_box.png)](outputs/price_age_box.html)
+
+Scatter plot (price vs age):
+
+[![Price vs Age Scatter](images/price_age_scatter.png)](outputs/price_age_scatter.html)
+
+Interactive features: hover for values, zoom/pan, and export with the camera icon.
+
+---
 
 ### 2. Customer Lifetime Value (CLV) Analysis
-💰 **CLV Insights**
-- Overall distribution: [`outputs/clv_distribution.html`](outputs/clv_distribution.html)
-- Gender comparison: [`outputs/clv_by_gender.html`](outputs/clv_by_gender.html)
-- Age correlation: [`outputs/clv_vs_age.html`](outputs/clv_vs_age.html)
 
-Key features:
-- Distribution shape analysis
-- Gender-based comparisons
-- Age-based value patterns
-- Interactive legends
+Overall CLV distribution:
+
+[![CLV Distribution](images/clv_distribution.png)](outputs/clv_distribution.html)
+
+CLV by gender:
+
+[![CLV by Gender](images/clv_by_gender.png)](outputs/clv_by_gender.html)
+
+CLV vs age:
+
+[![CLV vs Age](images/clv_vs_age.png)](outputs/clv_vs_age.html)
+
+---
 
 ### 3. Review and Purchase Analysis
-⭐ **Customer Satisfaction Impact**
-- Detailed analysis: [`outputs/review_vs_purchases.html`](outputs/review_vs_purchases.html)
 
-Interactive elements:
-- Hover for exact review scores
-- Purchase frequency details
-- Trend line analysis
-- Correlation statistics
+Review score vs purchase frequency:
+
+[![Review vs Purchases](images/review_vs_purchases.png)](outputs/review_vs_purchases.html)
+
+---
 
 ### 4. Age-based Spending Patterns
-👥 **Demographic Spending Analysis**
-- Age group breakdown: [`outputs/age_spending.html`](outputs/age_spending.html)
 
-Features:
-- Spending by age group
-- Interactive tooltips
-- Comparative analysis
-- Customizable view options
+Total spending by age group:
+
+[![Age Spending](images/age_spending.png)](outputs/age_spending.html)
+
+---
 
 ### 5. Payment Methods Analysis
-💳 **Payment Preferences**
-- Gender-based preferences: [`outputs/payment_methods.html`](outputs/payment_methods.html)
 
-Interactive capabilities:
-- Filter by gender
-- Compare payment methods
-- Percentage view option
-- Detailed breakdowns
+Payment method usage by gender:
+
+[![Payment Methods](images/payment_methods.png)](outputs/payment_methods.html)
+
+---
 
 ## Getting Started
 

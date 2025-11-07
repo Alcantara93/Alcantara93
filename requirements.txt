@@ -1,3 +1,4 @@
 plotly>=5.0
 pandas>=1.0
 numpy>=1.18
+kaleido>=0.2

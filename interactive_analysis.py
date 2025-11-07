@@ -11,6 +11,7 @@ from plotly.subplots import make_subplots
 def ensure_output_dir():
     """Create outputs directory if it doesn't exist"""
     os.makedirs('outputs', exist_ok=True)
+    os.makedirs('images', exist_ok=True)
 
 def load_data():
     """Load and validate the dataset"""
@@ -22,11 +23,26 @@ def load_data():
         print("Error: cleaned_file.csv not found in current directory")
         sys.exit(1)
 
-def save_plot(fig, filename):
-    """Save plot as interactive HTML"""
+def save_plot(fig, filename, save_png: bool = True):
+    """Save interactive HTML and optionally a PNG thumbnail.
+
+    filename: name for the HTML file (e.g. 'clv_distribution.html')
+    save_png: if True, also save a PNG to images/ with same base name
+    """
     output_path = os.path.join('outputs', filename)
     fig.write_html(output_path)
     print(f"Saved: {output_path}")
+
+    if save_png:
+        # try to save a static image using kaleido (Plotly's default engine)
+        base = os.path.splitext(filename)[0]
+        img_path = os.path.join('images', f"{base}.png")
+        try:
+            fig.write_image(img_path)
+            print(f"Saved image: {img_path}")
+        except Exception as e:
+            # If write_image fails (missing kaleido), skip PNG but continue
+            print(f"Warning: could not save PNG for {filename} ({e}). Install 'kaleido' to enable PNG export.")
 
 def plot_price_age_box(df):
     """Create box plots for price and age"""
