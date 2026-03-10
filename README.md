@@ -1,32 +1,60 @@
-# 💫 About Me:
-# Hello, I am Ailton.
-# I’ve spent the last four years intensely engrained in the world of data, finding joy in the challenge of transforming data into strategic insights that drive business decisions and growth.
-# My expertise lies in dissecting complex datasets and translating them into clear, actionable intelligence for stakeholders at all levels.
+# Ailton D'Alcântara — Data Engineer
 
-
-## 🌐 Socials:
-linkedin.com/in/ailton-d-alcantara-3a4681195
-
-# 💻 Tech Stack:
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
-![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) !
-[R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) !
-[MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) 
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) 
-![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) 
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
- ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) 
- ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) 
-![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Alcantara93&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Alcantara93&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Alcantara93&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+Data Engineer with 4+ years of experience building production-grade pipelines for financial and business datasets.
+Focused on **reliability, data quality, and clean architecture** — from raw ingestion through analytics-ready delivery.
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Alcantara93&icon=0&color=0)](https://visitcount.itsvg.in)
 
+## Featured Project
+
+### [Credit Card Fraud Detection — ELT Pipeline](https://github.com/Alcantara93/credit-fraud-portfolio)
+
+Production-grade pipeline on 284,807 real transactions. Built end-to-end to demonstrate enterprise data engineering standards.
+
+| Layer | Technology | What it does |
+|---|---|---|
+| Ingestion | Python · Pandas | Loads CSV into PostgreSQL Bronze layer with schema validation |
+| Data Quality | Great Expectations | Halts pipeline on bad data before any transformation runs |
+| Transformation | dbt Core | Medallion architecture — Bronze → Silver → Gold with full lineage |
+| Orchestration | Apache Airflow | Daily DAG with retries, XCom observability, and dependency management |
+| Infrastructure | Docker Compose | Full stack (Airflow + PostgreSQL) runs with one command |
+| CI/CD | GitHub Actions | dbt compile on every push — catches SQL errors before production |
+| Output | Gold mart tables | Risk-scored fraud fact table + hourly reporting aggregates |
+
+---
+
+## Tech Stack
+
+**Data Engineering**
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PostgreSQL](https://img.shields.io/badge/postgresql-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+
+**Analytics & BI**
+
+![Power BI](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+**Other**
+
+![GitHub Actions](https://img.shields.io/badge/github%20actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
+
+---
+
+## GitHub Stats
+
+![](https://github-readme-stats.vercel.app/api?username=Alcantara93&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=Alcantara93&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Alcantara93&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+---
+
+## Connect
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ailton-d-alcantara-3a4681195)
