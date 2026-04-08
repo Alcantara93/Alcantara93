@@ -25,7 +25,7 @@ My work sits at the intersection of **technical precision and business impact** 
 - **60%** improvement in data consistency
 - **35%** reduction in audit effort
 
-Currently based in **Olten, Switzerland** (EU Work Permit B), actively targeting Data Engineer and Analytics Engineer roles in **Zürich, Basel, and Bern**.
+Currently based in **Olten, Switzerland** (EU Work Permit B), actively targeting Data Engineer and Analytics Engineer roles in Switzerland.
 
 I understand the **FINMA regulatory environment** and the quality standards expected in Swiss financial services — every project I build reflects those standards from day one.
 
